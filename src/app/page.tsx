@@ -29,17 +29,41 @@ export default function Home() {
         <section id="products" className="py-16">
           <h2 className="text-3xl font-bold mb-8 text-center">Our Products</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-gray-100 p-4 rounded shadow hover:shadow-lg transform hover:rotate-3 transition-transform duration-300">
-              <h3 className="text-xl font-bold mb-2">Premium Residential Lots</h3>
-              <p>Discover our exclusive residential lots located in prime areas.</p>
+            <div className="flip-card">
+              <div className="flip-card-inner">
+                <div className="flip-card-front bg-gray-100 p-4 rounded shadow">
+                  <h3 className="text-xl font-bold mb-2">Premium Residential Lots</h3>
+                  <p>Discover our exclusive residential lots located in prime areas.</p>
+                </div>
+                <div className="flip-card-back bg-gray-100 p-4 rounded shadow">
+                  <h3 className="text-xl font-bold mb-2">Premium Residential Lots</h3>
+                  <p>These lots offer stunning views, excellent amenities, and a serene environment perfect for building your dream home.</p>
+                </div>
+              </div>
             </div>
-            <div className="bg-gray-100 p-4 rounded shadow hover:shadow-lg transform hover:rotate-3 transition-transform duration-300">
-              <h3 className="text-xl font-bold mb-2">Houses in Premium Developments</h3>
-              <p>Find your dream home in our premium residential developments.</p>
+            <div className="flip-card">
+              <div className="flip-card-inner">
+                <div className="flip-card-front bg-gray-100 p-4 rounded shadow">
+                  <h3 className="text-xl font-bold mb-2">Houses in Premium Developments</h3>
+                  <p>Find your dream home in our premium residential developments.</p>
+                </div>
+                <div className="flip-card-back bg-gray-100 p-4 rounded shadow">
+                  <h3 className="text-xl font-bold mb-2">Houses in Premium Developments</h3>
+                  <p>Our houses are designed with modern architecture, luxurious interiors, and are located in secure, gated communities.</p>
+                </div>
+              </div>
             </div>
-            <div className="bg-gray-100 p-4 rounded shadow hover:shadow-lg transform hover:rotate-3 transition-transform duration-300">
-              <h3 className="text-xl font-bold mb-2">Commercial Lots with High Added Value</h3>
-              <p>Invest in commercial lots that offer high returns and added value.</p>
+            <div className="flip-card">
+              <div className="flip-card-inner">
+                <div className="flip-card-front bg-gray-100 p-4 rounded shadow">
+                  <h3 className="text-xl font-bold mb-2">Commercial Lots with High Added Value</h3>
+                  <p>Invest in commercial lots that offer high returns and added value.</p>
+                </div>
+                <div className="flip-card-back bg-gray-100 p-4 rounded shadow">
+                  <h3 className="text-xl font-bold mb-2">Commercial Lots with High Added Value</h3>
+                  <p>These lots are strategically located in high-traffic areas, making them ideal for businesses and commercial ventures.</p>
+                </div>
+              </div>
             </div>
           </div>
         </section>
@@ -48,13 +72,13 @@ export default function Home() {
           <h2 className="text-3xl font-bold mb-8 text-center">Editorial Posts</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <article className="bg-white p-4 rounded shadow hover:shadow-lg transform hover:rotate-3 transition-transform duration-300">
-              <h3 className="text-xl font-bold mb-2">Post Title 1</h3>
-              <p>Summary of the editorial post content goes here...</p>
+              <h3 className="text-xl font-bold mb-2">The Future of Real Estate</h3>
+              <p>As the real estate market evolves, new trends and technologies are shaping the future. Discover how smart homes, sustainable building practices, and digital platforms are transforming the industry.</p>
               <a href="#" className="text-blue-500 hover:underline">Read more</a>
             </article>
             <article className="bg-white p-4 rounded shadow hover:shadow-lg transform hover:rotate-3 transition-transform duration-300">
-              <h3 className="text-xl font-bold mb-2">Post Title 2</h3>
-              <p>Summary of the editorial post content goes here...</p>
+              <h3 className="text-xl font-bold mb-2">Top Investment Opportunities</h3>
+              <p>Explore the top real estate investment opportunities in 2023. From residential properties to commercial lots, find out where you should invest to maximize your returns.</p>
               <a href="#" className="text-blue-500 hover:underline">Read more</a>
             </article>
           </div>
@@ -64,11 +88,11 @@ export default function Home() {
           <h2 className="text-3xl font-bold mb-8 text-center">Testimonials</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <blockquote className="bg-gray-100 p-4 rounded shadow hover:shadow-lg transform hover:rotate-3 transition-transform duration-300">
-              <p className="mb-2">"This is the best real estate service I have ever used!"</p>
+              <p className="mb-2">"This is the best real estate service I have ever used! The team was professional, and they helped me find the perfect home."</p>
               <footer className="text-sm text-gray-700">- Happy Customer</footer>
             </blockquote>
             <blockquote className="bg-gray-100 p-4 rounded shadow hover:shadow-lg transform hover:rotate-3 transition-transform duration-300">
-              <p className="mb-2">"Highly recommend their premium residential lots."</p>
+              <p className="mb-2">"Highly recommend their premium residential lots. The locations are fantastic, and the amenities are top-notch."</p>
               <footer className="text-sm text-gray-700">- Satisfied Client</footer>
             </blockquote>
           </div>
