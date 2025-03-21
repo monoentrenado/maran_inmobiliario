@@ -1,4 +1,4 @@
-import Image from "next/image";
+//import Image from "next/image";
 import { HomeIcon, NewspaperIcon, ChatAlt2Icon, MailIcon } from "@heroicons/react/outline";
 import ContactForm from "./components/ContactForm";
 
@@ -88,11 +88,11 @@ export default function Home() {
           <h2 className="text-3xl font-subheading mb-8 text-center">Testimonials</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <blockquote className="bg-caribbeanBlue-500 text-sandyBeach-500 p-4 rounded shadow hover:shadow-lg transform hover:rotate-3 transition-transform duration-300">
-              <p className="mb-2">"This is the best real estate service I have ever used! The team was professional, and they helped me find the perfect home."</p>
+              <p className="mb-2">&quot;This is the best real estate service I have ever used! The team was professional, and they helped me find the perfect home.&quot;</p>
               <footer className="text-sm text-sunsetOrange-500">- Happy Customer</footer>
             </blockquote>
             <blockquote className="bg-caribbeanBlue-500 text-sandyBeach-500 p-4 rounded shadow hover:shadow-lg transform hover:rotate-3 transition-transform duration-300">
-              <p className="mb-2">"Highly recommend their premium residential lots. The locations are fantastic, and the amenities are top-notch."</p>
+              <p className="mb-2">&quot;Highly recommend their premium residential lots. The locations are fantastic, and the amenities are top-notch.&quot;</p>
               <footer className="text-sm text-sunsetOrange-500">- Satisfied Client</footer>
             </blockquote>
           </div>
