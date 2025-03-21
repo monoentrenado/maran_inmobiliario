@@ -22,7 +22,7 @@ export default function ContactForm() {
         <label htmlFor="message" className="block text-sm font-bold mb-2">Message</label>
         <textarea id="message" className="w-full p-2 border border-gray-300 rounded" rows="4" required></textarea>
       </div>
-      <button type="submit" className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">Send Message</button>
+      <button type="submit" className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transform hover:scale-105 transition-transform duration-300">Send Message</button>
     </form>
   );
 }

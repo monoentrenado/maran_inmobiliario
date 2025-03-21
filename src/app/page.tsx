@@ -22,21 +22,21 @@ export default function Home() {
         <section id="hero" className="text-center py-16">
           <h2 className="text-4xl font-bold mb-4">Welcome to Our Real Estate Platform</h2>
           <p className="text-lg mb-8">Explore premium residential lots, houses within premium residential developments, and commercial lots with high added value.</p>
-          <a href="#products" className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">Explore Now</a>
+          <a href="#products" className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transform hover:scale-105 transition-transform duration-300">Explore Now</a>
         </section>
 
         <section id="products" className="py-16">
           <h2 className="text-3xl font-bold mb-8 text-center">Our Products</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-gray-100 p-4 rounded shadow">
+            <div className="bg-gray-100 p-4 rounded shadow hover:shadow-lg transform hover:rotate-3 transition-transform duration-300">
               <h3 className="text-xl font-bold mb-2">Premium Residential Lots</h3>
               <p>Discover our exclusive residential lots located in prime areas.</p>
             </div>
-            <div className="bg-gray-100 p-4 rounded shadow">
+            <div className="bg-gray-100 p-4 rounded shadow hover:shadow-lg transform hover:rotate-3 transition-transform duration-300">
               <h3 className="text-xl font-bold mb-2">Houses in Premium Developments</h3>
               <p>Find your dream home in our premium residential developments.</p>
             </div>
-            <div className="bg-gray-100 p-4 rounded shadow">
+            <div className="bg-gray-100 p-4 rounded shadow hover:shadow-lg transform hover:rotate-3 transition-transform duration-300">
               <h3 className="text-xl font-bold mb-2">Commercial Lots with High Added Value</h3>
               <p>Invest in commercial lots that offer high returns and added value.</p>
             </div>
@@ -46,12 +46,12 @@ export default function Home() {
         <section id="posts" className="py-16 bg-gray-50">
           <h2 className="text-3xl font-bold mb-8 text-center">Editorial Posts</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <article className="bg-white p-4 rounded shadow">
+            <article className="bg-white p-4 rounded shadow hover:shadow-lg transform hover:rotate-3 transition-transform duration-300">
               <h3 className="text-xl font-bold mb-2">Post Title 1</h3>
               <p>Summary of the editorial post content goes here...</p>
               <a href="#" className="text-blue-500 hover:underline">Read more</a>
             </article>
-            <article className="bg-white p-4 rounded shadow">
+            <article className="bg-white p-4 rounded shadow hover:shadow-lg transform hover:rotate-3 transition-transform duration-300">
               <h3 className="text-xl font-bold mb-2">Post Title 2</h3>
               <p>Summary of the editorial post content goes here...</p>
               <a href="#" className="text-blue-500 hover:underline">Read more</a>
@@ -62,11 +62,11 @@ export default function Home() {
         <section id="testimonials" className="py-16">
           <h2 className="text-3xl font-bold mb-8 text-center">Testimonials</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <blockquote className="bg-gray-100 p-4 rounded shadow">
+            <blockquote className="bg-gray-100 p-4 rounded shadow hover:shadow-lg transform hover:rotate-3 transition-transform duration-300">
               <p className="mb-2">"This is the best real estate service I have ever used!"</p>
               <footer className="text-sm text-gray-700">- Happy Customer</footer>
             </blockquote>
-            <blockquote className="bg-gray-100 p-4 rounded shadow">
+            <blockquote className="bg-gray-100 p-4 rounded shadow hover:shadow-lg transform hover:rotate-3 transition-transform duration-300">
               <p className="mb-2">"Highly recommend their premium residential lots."</p>
               <footer className="text-sm text-gray-700">- Satisfied Client</footer>
             </blockquote>
