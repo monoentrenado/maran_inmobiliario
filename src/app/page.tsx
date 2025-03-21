@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { HomeIcon, NewspaperIcon, ChatAlt2Icon, MailIcon } from "@heroicons/react/outline";
 import ContactForm from "./components/ContactForm";
 
 export default function Home() {
@@ -9,17 +10,17 @@ export default function Home() {
           <h1 className="text-2xl font-bold">Real Estate Services</h1>
           <nav>
             <ul className="flex space-x-4">
-              <li><a href="#products" className="hover:underline">Products</a></li>
-              <li><a href="#posts" className="hover:underline">Posts</a></li>
-              <li><a href="#testimonials" className="hover:underline">Testimonials</a></li>
-              <li><a href="#contact" className="hover:underline">Contact</a></li>
+              <li><a href="#products" className="hover:underline flex items-center"><HomeIcon className="h-5 w-5 mr-1" /> Products</a></li>
+              <li><a href="#posts" className="hover:underline flex items-center"><NewspaperIcon className="h-5 w-5 mr-1" /> Posts</a></li>
+              <li><a href="#testimonials" className="hover:underline flex items-center"><ChatAlt2Icon className="h-5 w-5 mr-1" /> Testimonials</a></li>
+              <li><a href="#contact" className="hover:underline flex items-center"><MailIcon className="h-5 w-5 mr-1" /> Contact</a></li>
             </ul>
           </nav>
         </div>
       </header>
 
       <main className="container mx-auto p-4">
-        <section id="hero" className="text-center py-16">
+        <section id="hero" className="text-center py-16 bg-hero-pattern">
           <h2 className="text-4xl font-bold mb-4">Welcome to Our Real Estate Platform</h2>
           <p className="text-lg mb-8">Explore premium residential lots, houses within premium residential developments, and commercial lots with high added value.</p>
           <a href="#products" className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transform hover:scale-105 transition-transform duration-300">Explore Now</a>
